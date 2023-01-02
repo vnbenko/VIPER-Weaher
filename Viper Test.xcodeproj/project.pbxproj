@@ -13,6 +13,18 @@
 		B7C1C823296080EF00EBCEC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7C1C821296080EF00EBCEC7 /* Main.storyboard */; };
 		B7C1C825296080F200EBCEC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7C1C824296080F200EBCEC7 /* Assets.xcassets */; };
 		B7C1C828296080F200EBCEC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7C1C826296080F200EBCEC7 /* LaunchScreen.storyboard */; };
+		B7C1C833296081A400EBCEC7 /* DateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C1C832296081A400EBCEC7 /* DateService.swift */; };
+		B7C1C835296081AB00EBCEC7 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C1C834296081AB00EBCEC7 /* WeatherService.swift */; };
+		B7C1C8382960833900EBCEC7 /* WelcomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C1C8372960833900EBCEC7 /* WelcomePresenter.swift */; };
+		B7C1C83A296083E900EBCEC7 /* WelcomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C1C839296083E900EBCEC7 /* WelcomeRouter.swift */; };
+		B7C1C83C2960841500EBCEC7 /* WelcomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C1C83B2960841500EBCEC7 /* WelcomeInteractor.swift */; };
+		B7C1C83E296084A700EBCEC7 /* WelcomeModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C1C83D296084A700EBCEC7 /* WelcomeModuleBuilder.swift */; };
+		B7C1C8622962E07A00EBCEC7 /* ImageViewerModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C1C85D2962E07A00EBCEC7 /* ImageViewerModuleBuilder.swift */; };
+		B7C1C8632962E07A00EBCEC7 /* ImageViewerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C1C85E2962E07A00EBCEC7 /* ImageViewerPresenter.swift */; };
+		B7C1C8642962E07A00EBCEC7 /* ImageViewerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C1C85F2962E07A00EBCEC7 /* ImageViewerRouter.swift */; };
+		B7C1C8652962E07A00EBCEC7 /* ImageViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C1C8602962E07A00EBCEC7 /* ImageViewerViewController.swift */; };
+		B7C1C8662962E07A00EBCEC7 /* ImageViewerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C1C8612962E07A00EBCEC7 /* ImageViewerInteractor.swift */; };
+		B7C1C86E2962E33F00EBCEC7 /* ImageViewer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7C1C86D2962E33F00EBCEC7 /* ImageViewer.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,18 @@
 		B7C1C824296080F200EBCEC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7C1C827296080F200EBCEC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7C1C829296080F200EBCEC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7C1C832296081A400EBCEC7 /* DateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateService.swift; sourceTree = "<group>"; };
+		B7C1C834296081AB00EBCEC7 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		B7C1C8372960833900EBCEC7 /* WelcomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePresenter.swift; sourceTree = "<group>"; };
+		B7C1C839296083E900EBCEC7 /* WelcomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeRouter.swift; sourceTree = "<group>"; };
+		B7C1C83B2960841500EBCEC7 /* WelcomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeInteractor.swift; sourceTree = "<group>"; };
+		B7C1C83D296084A700EBCEC7 /* WelcomeModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeModuleBuilder.swift; sourceTree = "<group>"; };
+		B7C1C85D2962E07A00EBCEC7 /* ImageViewerModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerModuleBuilder.swift; sourceTree = "<group>"; };
+		B7C1C85E2962E07A00EBCEC7 /* ImageViewerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerPresenter.swift; sourceTree = "<group>"; };
+		B7C1C85F2962E07A00EBCEC7 /* ImageViewerRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerRouter.swift; sourceTree = "<group>"; };
+		B7C1C8602962E07A00EBCEC7 /* ImageViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerViewController.swift; sourceTree = "<group>"; };
+		B7C1C8612962E07A00EBCEC7 /* ImageViewerInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerInteractor.swift; sourceTree = "<group>"; };
+		B7C1C86D2962E33F00EBCEC7 /* ImageViewer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ImageViewer.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +80,68 @@
 		B7C1C81A296080EF00EBCEC7 /* Viper Test */ = {
 			isa = PBXGroup;
 			children = (
+				B7C1C82F2960811300EBCEC7 /* Application */,
+				B7C1C836296082B500EBCEC7 /* Welcome */,
+				B7C1C8672962E08200EBCEC7 /* ImageViewer */,
+				B7C1C8312960819100EBCEC7 /* API */,
+				B7C1C8302960812A00EBCEC7 /* Resources */,
+			);
+			path = "Viper Test";
+			sourceTree = "<group>";
+		};
+		B7C1C82F2960811300EBCEC7 /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				B7C1C81B296080EF00EBCEC7 /* AppDelegate.swift */,
 				B7C1C81D296080EF00EBCEC7 /* SceneDelegate.swift */,
-				B7C1C81F296080EF00EBCEC7 /* ViewController.swift */,
-				B7C1C821296080EF00EBCEC7 /* Main.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B7C1C8302960812A00EBCEC7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				B7C1C824296080F200EBCEC7 /* Assets.xcassets */,
 				B7C1C826296080F200EBCEC7 /* LaunchScreen.storyboard */,
 				B7C1C829296080F200EBCEC7 /* Info.plist */,
 			);
-			path = "Viper Test";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B7C1C8312960819100EBCEC7 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B7C1C832296081A400EBCEC7 /* DateService.swift */,
+				B7C1C834296081AB00EBCEC7 /* WeatherService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		B7C1C836296082B500EBCEC7 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				B7C1C83D296084A700EBCEC7 /* WelcomeModuleBuilder.swift */,
+				B7C1C839296083E900EBCEC7 /* WelcomeRouter.swift */,
+				B7C1C81F296080EF00EBCEC7 /* ViewController.swift */,
+				B7C1C8372960833900EBCEC7 /* WelcomePresenter.swift */,
+				B7C1C83B2960841500EBCEC7 /* WelcomeInteractor.swift */,
+				B7C1C821296080EF00EBCEC7 /* Main.storyboard */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		B7C1C8672962E08200EBCEC7 /* ImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				B7C1C85D2962E07A00EBCEC7 /* ImageViewerModuleBuilder.swift */,
+				B7C1C85F2962E07A00EBCEC7 /* ImageViewerRouter.swift */,
+				B7C1C8602962E07A00EBCEC7 /* ImageViewerViewController.swift */,
+				B7C1C85E2962E07A00EBCEC7 /* ImageViewerPresenter.swift */,
+				B7C1C8612962E07A00EBCEC7 /* ImageViewerInteractor.swift */,
+				B7C1C86D2962E33F00EBCEC7 /* ImageViewer.storyboard */,
+			);
+			name = ImageViewer;
+			path = ../ImageViewer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +204,7 @@
 			files = (
 				B7C1C828296080F200EBCEC7 /* LaunchScreen.storyboard in Resources */,
 				B7C1C825296080F200EBCEC7 /* Assets.xcassets in Resources */,
+				B7C1C86E2962E33F00EBCEC7 /* ImageViewer.storyboard in Resources */,
 				B7C1C823296080EF00EBCEC7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +216,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7C1C8642962E07A00EBCEC7 /* ImageViewerRouter.swift in Sources */,
+				B7C1C835296081AB00EBCEC7 /* WeatherService.swift in Sources */,
+				B7C1C8652962E07A00EBCEC7 /* ImageViewerViewController.swift in Sources */,
+				B7C1C83C2960841500EBCEC7 /* WelcomeInteractor.swift in Sources */,
+				B7C1C8382960833900EBCEC7 /* WelcomePresenter.swift in Sources */,
+				B7C1C8632962E07A00EBCEC7 /* ImageViewerPresenter.swift in Sources */,
 				B7C1C820296080EF00EBCEC7 /* ViewController.swift in Sources */,
 				B7C1C81C296080EF00EBCEC7 /* AppDelegate.swift in Sources */,
+				B7C1C83E296084A700EBCEC7 /* WelcomeModuleBuilder.swift in Sources */,
+				B7C1C83A296083E900EBCEC7 /* WelcomeRouter.swift in Sources */,
 				B7C1C81E296080EF00EBCEC7 /* SceneDelegate.swift in Sources */,
+				B7C1C833296081A400EBCEC7 /* DateService.swift in Sources */,
+				B7C1C8662962E07A00EBCEC7 /* ImageViewerInteractor.swift in Sources */,
+				B7C1C8622962E07A00EBCEC7 /* ImageViewerModuleBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,12 +378,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8M97DT7VG5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Viper Test/Info.plist";
+				INFOPLIST_FILE = "Viper Test/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +391,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "id.iBenko.Viper-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,12 +409,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8M97DT7VG5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Viper Test/Info.plist";
+				INFOPLIST_FILE = "Viper Test/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +422,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "id.iBenko.Viper-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
